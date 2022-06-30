@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+{% block rajesh %}
+    <body>
+    <form action="#" method="get">
+        {% csrf_token %}
+
+    <table align="center">
+        <tr>
+            <h3>Login Page</h3>
+        </tr>
+        <tr><th><input type="submit" placeholder="Input your user Name" name="l1"></th></tr>
+        <tr><th><input type="submit" placeholder="Input your password " name="l2"></th></tr>
+        <tr><th><button type="submit">Signin</button></th></tr>
+    </table>
+    </form>
+    </body>
+{% endblock %}
